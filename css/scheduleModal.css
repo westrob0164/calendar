@@ -1,0 +1,93 @@
+
+
+/* The Schedule Modal (background) */
+.scheduleModal {
+   display: none; /* Hidden by default */
+   position: sticky;
+   z-index: 1; /* Sit on top */
+   padding-top: 250px; /* Location of the box */
+   left: 100px;
+   top: 0;
+   width: 220px; /* Full width */
+   overflow: auto; /* Enable scroll if needed */
+   
+ }
+ 
+ /* Schedule Modal Content */
+ .modal-content {
+   position: relative;
+   background-color: #fefefe;
+   margin: auto;
+   padding: 0;
+   border: 5px solid black;
+   width: 80%;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+   -webkit-animation-name: animatetop;
+   -webkit-animation-duration: 0.4s;
+   animation-name: animatetop;
+   animation-duration: 0.4s
+ }
+
+
+ /* The Tasks Modal (background) */
+.tasksModal {
+  display: none; /* Hidden by default */
+  position: sticky;
+  z-index: 1; /* Sit on top */
+  left: 200px;
+  top: 0;
+  width: 640px; /* Full width */
+  text-align: center;
+}
+
+/* Tasks Modal Content */
+.modal-contentTasks {
+  position: relative;
+  background-color: #fefefe;
+  margin: 5px;
+  padding: 10px;
+  border: 5px solid black;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+
+.modalInputText{
+  text-align: center;
+  margin: 5px;
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+}
+ 
+ /* Add Animation */
+ @-webkit-keyframes animatetop {
+   from {top:-300px; opacity:0} 
+   to {top:0; opacity:1}
+ }
+ 
+ @keyframes animatetop {
+   from {top:-300px; opacity:0}
+   to {top:0; opacity:1}
+ }
+ 
+ 
+
+
+
+ 
+ /* .modal-header {
+   padding: 2px 16px;
+   background-color: wheat;
+   color:black;
+ }
+ 
+ .modal-body {padding: 2px 16px;}
+ 
+ .modal-footer {
+   padding: 2px 16px;
+   background-color: whitesmoke;
+   color: burlywood;
+ } */

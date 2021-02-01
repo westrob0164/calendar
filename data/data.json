@@ -1,0 +1,5 @@
+{
+  "centricityFormulaArray":[3, 2,3, 1,2,3, 0,1,2,3, 4,3, 5,4,3, 6,5,4,3],
+  "centricityForNames":["do","ti","do","la","ti","do","so","la","ti","do","re","do","mi","re","do","fa","mi","re","do"],
+  "centFormFragArray":[[2,3],[1,2,3],[0,1,2,3],[4,3],[5,4,3],[6,5,4,3]]
+}

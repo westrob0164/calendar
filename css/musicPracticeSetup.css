@@ -1,0 +1,93 @@
+
+/* create the row of buttons */
+/* .musicPracticeSetupContainer{
+   display: grid;
+   grid-template-columns: repeat(3, 40px) 60px repeat(7, 1fr); 
+} */
+
+/* day names */
+.musDayNamesContainer {
+   display: grid;
+   grid-template-columns: 280px repeat(7, 1fr) 15px;   
+}
+
+.musPracticeSetupDayNames{
+   font: 1.2em sans-serif; 
+   margin: 2px;
+   padding: 5px;
+   border: thin solid black;
+   text-align: center;
+}
+
+.musDayPlaceHolder {
+   grid-column: span 1;
+}
+
+
+/* Practice Setup pane */
+.musPracticeSetupContainer {
+   height: 775px;
+   overflow: scroll;
+}
+
+.musPracticeSetupPane {
+   
+   display: grid;
+   grid-template-columns: repeat(3, 20px) 220px repeat(7, 1fr);  
+}
+
+.musPracticeSetupSection {
+   grid-column: span 11;
+   font: 2em sans-serif; 
+   margin: 10px;
+
+}
+
+.musSetup1 {
+   grid-column: span 10;
+   font: 1.5em sans-serif; 
+   margin: 10px;
+}
+
+.musSetup2 {
+   grid-column: span 9;
+   font: 1.4em sans-serif; 
+   margin: 10px;
+}
+
+.musPracticeItemName{
+   grid-column: span 1; /* change to 1 */
+   font: 1.2em sans-serif; 
+   margin: 5px;
+}
+
+.musPlaceHolder1 {
+   grid-column: span 1;
+}
+
+.musPlaceHolder2 {
+   grid-column: span 2;
+}
+
+.musPlaceHolder3 {
+   grid-column: span 3;
+}
+
+.musPractCell{
+   font: 1px;
+   margin: 2px;
+   border: thin solid black;
+   background-color: cornsilk;
+   color: cornsilk;
+}
+
+.musPractCellSel{
+   background-color: teal;
+   color:teal;
+}
+
+.rhythmFont{
+   font-family: MyMusic2;
+   text-align: center;
+   font-size: 25px;
+}

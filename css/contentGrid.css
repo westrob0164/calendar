@@ -1,0 +1,68 @@
+
+
+.contentWraper {
+  display: grid;
+  grid-template-columns: 1fr 442px 1fr;
+  grid-gap: 0px;
+  grid-auto-rows: minmax(60px, auto);
+}
+
+
+.indexButtons {
+  grid-column: 2;
+  grid-row: 1;
+  cursor: pointer;
+  /*background-color: oldlace;*/
+}
+
+
+/* css for the interum tasks*/
+.intrumTasks{
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.intTasks{
+  height: 800px;
+  border: thin solid black;  
+  padding: 10px;
+  font-size: 20px;
+}
+
+.taskTextBox{
+  font-size: 18px;
+  width: 180px;
+}
+
+.intTaskList {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  list-style: none;
+}
+  
+.intTaskList li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  font-weight: 100;
+  display: flex;
+}
+  
+.intTaskList label {
+  flex: 1;
+  cursor: pointer;
+}
+  
+.intTaskList input {
+  display: none;
+}
+  
+.intTaskList input + label:before {
+  content: "To Do";
+  margin-right: 10px;
+}
+  
+.intTaskList input:checked + label:before {
+  content: "Done";
+}

@@ -1,0 +1,95 @@
+
+
+/* create the row of buttons */
+.musicTabsContainer{
+   display: grid;
+   grid-template-columns: 100px repeat(4, 1fr); 
+}
+
+.musicTabs{
+   text-align: center;
+   font: 1.8em sans-serif;   
+   padding: 10px;
+   cursor: pointer;
+}
+
+.musicTabs:hover{
+   background-color: bisque;
+}
+
+.musicTabsActive{
+   background-color: cornsilk;
+}
+
+.musicPanel{
+   height: 800px;
+   background-color: cornsilk;
+}
+
+/* music pannel pages */
+.musicPractice{
+   background-color: cornsilk;
+}
+
+.musicLes{   
+   background-color: darkkhaki;
+   display: grid;
+   grid-template-columns: 1fr 1fr ; 
+   height: 800px;
+}
+
+.musLesQuestions{
+   grid-column: 1;
+}
+
+.musLes{
+   grid-column: 2;
+   
+}
+
+.musicOther{
+   background-color: darkkhaki;
+}
+
+.musLesQuesDisplay{
+   height: 510px;   
+   padding: 20px;
+   font: 1.5em sans-serif;
+   background-color: papayawhip;
+   overflow: auto;
+}
+.musLesQuesPost{
+   height: 250px;
+   padding: 10px;
+   background-color: palegoldenrod;
+}
+.musLesDisplay{
+   height: 510px;   
+   padding: 20px;
+   font: 1.5em sans-serif;
+   background-color: cornsilk;
+   overflow: auto;
+}
+.musLesPost{
+   height: 250px;
+   padding: 10px;
+   background-color: wheat;
+}
+
+.inputLables{
+   font: 1.5em sans-serif;
+   padding: 10px 20px 10px;
+}
+
+.lessonTitle{
+   font: 1em sans-serif;
+   margin: 5px 20px 15px;
+   width: 500px;
+}
+
+.inputBox{
+   margin: 5px 20px;
+   font: 1em sans-serif;
+   height: 80px;
+   width: 500px;
+}

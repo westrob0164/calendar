@@ -1,0 +1,73 @@
+
+.devotionWraper{
+   text-align: center;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 5px;
+   background-color: LightSteelBlue ;  
+}
+
+.devotionDate{
+   grid-column: span 3;
+   background-color:wheat;
+   height: 70px;
+}
+
+.prayerListWrapper{
+   overflow: auto;
+   height: 670px;
+   background-color: burlywood;
+   text-align: center;
+   padding: 15px;
+}  
+
+.prayerList{
+   text-align: left;
+   font-size: 1.2rem;
+   background-color: burlywood;
+   padding: 15px;
+}
+
+.passage{
+   height: 700px;
+   background-color:burlywood;
+   overflow: auto;
+}
+
+.devotionPassage{
+   text-align: left;
+   font-size: 1.2rem;
+   background-color: burlywood;
+   padding: 0px 10px;
+}
+
+.passageTitle{
+   padding-bottom: 0px;
+}
+
+.v{
+   padding-right: 8px;
+}
+.v::before {
+   content: "\A";
+   white-space: pre;
+ }
+
+ .add{
+    font-style: italic;
+ }
+
+
+
+.btnDevotion{
+   grid-column: span 3;
+}
+
+/* .bibleStudyWraper{
+  
+} */
+
+.listItems{
+   padding-bottom: 10px;
+}
+

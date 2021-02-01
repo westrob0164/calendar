@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>event.pageX demo</title>
+  <style>
+  body {
+    background-color: #eef;
+  }
+  div {
+    padding: 20px;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+ 
+<div id="log"></div>
+ 
+<script>
+$( document ).on( "mousemove", function( event ) {
+   console.log(event.pageX, event.pageY);
+  $( "#log" ).text( "pageX: " + event.pageX + ", pageY: " + event.pageY );
+
+  var xcoor = event.pageX
+});
+</script>
+ 
+</body>
+</html>

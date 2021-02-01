@@ -1,0 +1,57 @@
+
+.datePopout {
+
+    display: grid;
+    grid-template-columns:  1fr 220px;
+    grid-template-rows: 50px 1fr;
+    grid-gap: 0px;
+    z-index: 1;
+    width: 600px;
+    height: 600px;
+    transform: translate(300px, -700px);
+    /* transform: translate(0,0); */
+    background-color: wheat;  
+    opacity: 0.98;
+    border-radius: 10px;
+    text-align: center;
+    border: solid black 2px;
+    padding: 20px;
+
+}
+
+.ModalTitle{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.closeButton{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.orgPages{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.tasks{
+    grid-column: 1;
+    grid-row: 2;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    text-align: left;
+    padding: 10px;
+
+}
+.dailyTasksModal{
+    grid-row: 1;        
+}
+.weeklyTasksModal{
+    grid-row: 2;
+}
+.monthlyTasksModal{
+    grid-row: 3;
+}
+.SpecialTasksModal{
+    grid-row: 4;
+}     

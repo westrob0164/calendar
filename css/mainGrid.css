@@ -1,0 +1,48 @@
+/*This file is the main setup Grid for the new system*/
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1200px 1fr;
+    grid-gap: 0px;
+    grid-auto-rows: minmax(60px, auto);
+    background-color: LightSteelBlue ;  
+}
+
+.title {
+  grid-column: 2 / 3;
+  grid-row: 1;
+  background-color: LightSteelBlue ;  
+  text-align: center;
+
+}
+.content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    
+    background-color: LightSteelBlue ;
+    /*padding: 12px 12px;*/
+    border-radius: 20px;
+}
+
+.leftColumn {
+  grid-column: 1;
+  grid-row: 1 / 5;
+  background-color:  LightSteelBlue ;
+  
+}
+.rightColumn {
+  grid-column: 3;
+  grid-row: 1 / 5;
+  background-color:  LightSteelBlue ; 
+  text-align: center;
+}
+.footer {
+  grid-column: 2 / 3;
+  grid-row: 4;
+ background-color: LightSteelBlue ; 
+}
+
+.taskTitle{
+  font-size: 20px;
+}
+

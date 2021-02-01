@@ -1,0 +1,129 @@
+
+.weeklySchedule{
+   display: grid;
+   grid-gap: 1px;
+   grid-template-columns: 60px repeat(7, 1fr);
+}
+
+.scheduleMonthName{
+   grid-column: span 8;
+   text-align: center;
+}
+
+.dayNameWkSch{
+   cursor: pointer;
+}
+
+.timeDiv{
+   height: 15px;
+    border: thin solid black;  
+    padding: 5px;
+    font-size: 15px;
+    background-color: darkcyan;
+}
+
+.dayNumber {
+   border: thin solid black; 
+   text-align: center; 
+   font-size: 25px;
+   padding: 5px;
+}
+
+.wsInfoDiv{
+   height: 15px;
+   border: thin solid black;  
+   padding: 5px;
+   font-size: 15px;
+   cursor: pointer;
+   text-align: center; 
+}
+
+.dayPlaceHolder{
+   height: 30px;
+}
+
+.dayPlaceHolder2{
+   height: 55px;
+   cursor: pointer;
+}
+
+
+/* Legend */
+.legendWraper{
+  width:170px;
+  margin:0 auto
+}
+
+.legend{
+   height: 45px;
+   font-size: 35px;
+   padding: 10px;
+}
+
+.headerFiller{
+   height: 100px;
+}
+
+.sectionTitle{
+   height: 25px;
+   font-size: 20px;
+   padding: 5px;
+}
+
+.break{
+   height: 5px;
+}
+
+.legendItems{
+   height: 25px;
+   font-size: 18px;
+   padding: 5px;
+   margin: 5px;
+}
+
+/* schedule background colours */
+.worship     { background-color: gold; color: black;}
+.gospel      { background-color: goldenrod; color: black;}
+.mbibleStudy { background-color: darkgoldenrod; color: black; }
+.devotions   { background-color: darkred; color: gold;}
+.hbiblestudy { background-color: lightsalmon; color: black; }
+.jbibleStudy { background-color: purple; color: gold;}         
+.musician    { background-color: cornflowerblue; color: black; }
+.playViolin  { background-color: blue; color: gold;}
+.playPiano   { background-color: royalblue; color: gold;}
+.musicLesson { background-color: indigo; color: gold;}
+.workOffice  { background-color: green; color: gold;}
+.workHome    { background-color: greenyellow; color: black; }
+.workProject { background-color: lightgray; color: black; }
+.eat         { background-color: darkblue; color:gold; }
+.break2      { background-color: lightpink; color: black; }
+.sleep       { background-color: black; color: gold; }
+.exbike      { background-color: turquoise; color: black; }
+.exercise    { background-color: aqua; color: black; }
+.weightTrain { background-color: rosybrown; color: black; }
+.unused      { background-color: LightSteelBlue; color: black; }
+
+.colourPopout {      
+   width: 200px;
+   height: 640px;
+   transform: translate(50px, 160px);
+   background-color: antiquewhite;  
+   opacity: 0.98;
+   border-radius: 10px;
+   text-align: center;
+   border: solid black 2px;
+   padding: 10px;
+}
+
+.scheduleTitle {
+   transform: translate(0px, 160px); 
+}
+
+.selectTask{
+   height: 15px;
+   font-size: 15px;
+   margin: 5px;
+   cursor: pointer;
+   padding: 5px;
+   text-align: center;
+}

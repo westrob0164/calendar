@@ -1,0 +1,53 @@
+
+.calandarWraper{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.placeHolder1{ grid-column: span 1; border: thin solid black; }
+.placeHolder2{ grid-column: span 2; border: thin solid black; }
+.placeHolder3{ grid-column: span 3; border: thin solid black; }
+.placeHolder4{ grid-column: span 4; border: thin solid black; }
+.placeHolder5{ grid-column: span 5; border: thin solid black; }
+.placeHolder6{ grid-column: span 6; border: thin solid black; }
+
+.monthName {
+    grid-column: span 7;
+    font-size: 30px;
+    text-align: center;
+    
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+}
+
+.dayName {
+    border: thin solid black; 
+    text-align: center; 
+    font-size: 30px;
+    padding: 15px;
+}
+
+.day{
+    height: 130px;
+    border: thin solid black;  
+    padding: 10px;
+    font-size: 20px;
+}
+
+.thisDay{
+    background-color: cornsilk;
+}
+
+.prevMonth{
+    grid-column: 1;   
+}
+
+.nextMonth{
+    grid-column: 3;
+}
+
+.monthTitle{   
+    grid-column: 2;
+}
+

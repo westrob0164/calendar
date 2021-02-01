@@ -1,0 +1,99 @@
+/* buttons for the project*/
+
+.indexButton {
+    display: inline-block;
+    background-color: LightSteelBlue ;  
+    border: 1px solid black;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    width: 400px;
+    border: none;
+    border-radius: 7px;
+    background-position:center;
+    font: 24px sans-serif;
+    box-shadow: 0 8px #999;
+    margin: 20px;
+}
+
+/*.indexbutton {
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+
+  }*/
+  
+  .indexbutton:hover {background-color: darkblue}
+  
+  .indexbutton:active {
+    background-color: rgb(149, 181, 223);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .buttons{
+    display: inline-block;
+    background-color: darkcyan ; 
+    color: wheat;
+    padding: 5px 5px;
+    text-align: center;
+    cursor: pointer;    
+    border: none;
+    border-radius: 7px;
+    background-position:center;
+  }
+
+  .calandarButtons{
+    width: 190px;    
+    font: 24px sans-serif;
+  }
+
+  .dailySchButtons{
+    width: 290px;    
+    font: 20px sans-serif;
+  }
+
+  .closeModal{
+    width: 210px;
+    font: 18px sans-serif;
+  }
+
+  .orgPagesBtn{
+    background-color: blue; 
+    width: 180px;
+    font: 16px sans-serif;
+  }
+
+  .saveTasksBtn{
+    background-color: black; 
+    width: 100px;
+    font: 16px sans-serif;
+  }
+
+  .submitBtn{
+    background-color: darkcyan; 
+    width: 70px;
+    font: 16px sans-serif;
+    border-radius: 0;
+  }
+
+  .lessonBtn{
+    background-color: darkcyan; 
+    width: 220px;
+    font: 16px sans-serif;
+    margin: 0px 20px;
+  }
+
+  
+.orgPagesBtn2{
+    background-color: darkcyan; 
+    width: 220px;
+    font: 20px sans-serif;
+    margin: 20px 20px;   
+  }
+
+.dailyTaskBtn{
+  width: 100px;
+}
